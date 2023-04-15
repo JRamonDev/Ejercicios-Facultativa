@@ -1,4 +1,7 @@
-var miFuncion1 = function (parametro1, parametro2) {
-    console.log(Math.min(parametro1,parametro2))
+/*Escribe una función que tome dos números como parámetros y devuelva la
+suma de ambos números.*/
+function sumaNumero(x,y){
+    let suma = x + y;
+    return suma;
 }
-miFuncion1(10,20);
+console.log(sumaNumero(2,5));

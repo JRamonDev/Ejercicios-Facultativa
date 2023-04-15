@@ -1,7 +1,6 @@
-var miFuncion2 = function (parametroa, parametrob, parametroc){
-    if ((parametroa == true || parametrob == true || parametroc == true)){
-        console.log("true");
-        
-    }else{console.log("false")}
+/*Escribe una función que tome una cadena de texto como parámetro y
+devuelva la longitud de la cadena. */
+function obtenerlongitud(cadena){
+    return cadena.length;
 }
-miFuncion2(false, true, false)
+console.log(obtenerlongitud("Hola Mundo"));
